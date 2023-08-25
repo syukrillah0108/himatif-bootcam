@@ -1,91 +1,182 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <script href="./js/bootstrap.bundle.min.js"></script>
-    <title>Document</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <style>
+    .truncate-paragraph {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      /* Mengatur jumlah baris yang ditampilkan */
+      -webkit-line-clamp: 4;
+      /* Mengatur tinggi maksimal untuk empat baris */
+      max-height: calc(1.2em * 4); /* Sesuaikan sesuai ukuran font dan baris */
+    }
+  </style>
+  <title>Programming Tips</title>
 </head>
+
+
 <body>
-  
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="javascript:void(0)">Home</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="mynavbar">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Course</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">About</a>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="text" placeholder="Search">
-        <button class="btn btn-primary" type="button">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
-
-<div class="container mt-2 mx-2">
-  <h2>Python Tutorial</h2>
-  <div class="row">
-    
-    <div class="col-md-5 my-3">
-        <div class="card" style="width:350px">
-          <img class="card-img-top" src="/Web Dev/img/Code Image Generator.avif" alt="Card image" style="width:100%">
-          <div class="card-body">
-            <h4 class="card-title">Build a Code Image Generator With Python</h4>
-            <p class="card-text">
-              Creating your own code image generator will allow you to hone your skills as a Python programmer and experiment with full-stack web development.</p>
-            <a href="#" class="btn btn-primary">Open</a>
-          </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Python Tips</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Programming Tips</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-    </div>
-    
-    <div class="col-md-5 my-3">
-        <div class="card" style="width:350px">
-          <img class="card-img-top" src="/Web Dev/img/Code Image Generator.avif" alt="Card image" style="width:100%">
-          <div class="card-body">
-            <h4 class="card-title">Build a Code Image Generator With Python</h4>
-            <p class="card-text">
-              Creating your own code image generator will allow you to hone your skills as a Python programmer and experiment with full-stack web development.</p>
-            <a href="#" class="btn btn-primary">Open</a>
-          </div>
-        </div>
-    </div>
-
-    <div class="col-md-5 my-3">
-      <div class="card" style="width:350px">
-        <img class="card-img-top" src="/Web Dev/img/Code Image Generator.avif" alt="Card image" style="width:100%">
-        <div class="card-body">
-          <h4 class="card-title">Build a Code Image Generator With Python</h4>
-          <p class="card-text">
-            Creating your own code image generator will allow you to hone your skills as a Python programmer and experiment with full-stack web development.</p>
-          <a href="#" class="btn btn-primary">Open</a>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Tips</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Course</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                More
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Contact</a></li>
+                <li><a class="dropdown-item" href="#">About</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-3 mt-lg-0" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </div>
       </div>
-  </div>
-
-  <div class="col-md-5 my-3">
-    <div class="card" style="width:350px">
-      <img class="card-img-top" src="/Web Dev/img/Code Image Generator.avif" alt="Card image" style="width:100%">
-      <div class="card-body">
-        <h4 class="card-title">Build a Code Image Generator With Python</h4>
-        <p class="card-text">
-          Creating your own code image generator will allow you to hone your skills as a Python programmer and experiment with full-stack web development.</p>
-        <a href="#" class="btn btn-primary">Open</a>
+    </div>
+  </nav>
+  <main>
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow">
+              <img src="./img/Code Image Generator.avif">
+              <div class="card-body">
+                <h2>Build a Code Image Generator With Python</h2>
+                <p class="card-text truncate-paragraph">With a code image generator, you can create a nice-looking image of your code snippets. That way, you can share code without worrying about formatting, different syntax highlighting, or character count limitations.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-success">Read</button>
+                    <button type="button" class="btn btn-primary">Share</button>
+                  </div>
+                  <small>
+                    <button type="button" class="btn btn-secondary btn-sm">Python</button>
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow">
+              <img src="./img/Python Polars: A Lightning-Fast DataFrame Library.avif">
+              <div class="card-body">
+                <h2>A Lightning-Fast DataFrame Library</h2>
+                <p class="card-text truncate-paragraph">Polars is a high-performance DataFrame library, designed to provide fast and efficient data processing capabilities. Inspired by the reigning pandas library, Polars takes things to another level, offering a seamless experience for working with large datasets that might not fit into memory..</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-success">Read</button>
+                    <button type="button" class="btn btn-primary">Share</button>
+                  </div>
+                  <small>
+                    <button type="button" class="btn btn-secondary btn-sm">Python</button>
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow">
+              <img src="./img/Working With Linear Systems in Python With scipy.linalg.avif">
+              <div class="card-body">
+                <h2>Working With Linear Systems in Python With scipy.linalg</h2>
+                <p class="card-text truncate-paragraph">Linear algebra is widely used across a variety of subjects, and you can use it to solve many problems once you organize the information using concepts like vectors and linear equations. In Python, most of the routines related to this subject are implemented in scipy.linalg, which offers very fast linear algebra capabilities.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-success">Read</button>
+                    <button type="button" class="btn btn-primary">Share</button>
+                  </div>
+                  <small>
+                    <button type="button" class="btn btn-secondary btn-sm">Python</button>
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow">
+              <img src="./img/Getters and Setters: Manage Attributes in Python.avif">
+              <div class="card-body">
+                <h2>Getters and Setters: Manage Attributes in Python</h2>
+                <p class="card-text truncate-paragraph">If you come from a language like Java or C++, then you’re probably used to writing getter and setter methods for every attribute in your classes. These methods allow you to access and mutate private attributes while maintaining encapsulation. In Python, you’ll typically expose attributes as part of your public API and use properties when you need attributes with functional behavior.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-success">Read</button>
+                    <button type="button" class="btn btn-primary">Share</button>
+                  </div>
+                  <small>
+                    <button type="button" class="btn btn-secondary btn-sm">Python</button>
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow">
+              <img src="./img/HTML and CSS for Python Developers.avif">
+              <div class="card-body">
+                <h2>HTML and CSS for Python Developers</h2>
+                <p class="card-text truncate-paragraph">If you’re interested in web development with Python, then knowing HTML and CSS will help you understand web frameworks like Django and Flask better. But even if you’re just getting started with Python, HTML and CSS can enable you to create small websites to impress your friends.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-success">Read</button>
+                    <button type="button" class="btn btn-primary">Share</button>
+                  </div>
+                  <small>
+                    <button type="button" class="btn btn-secondary btn-sm">Python</button>
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow">
+              <img src="./img/SimPy: Simulating Real-World Processes With Python.avif">
+              <div class="card-body">
+                <h2> Simulating Real-World Processes With Python</h2>
+                <p class="card-text truncate-paragraph">The real world is full of systems, like airports and highways, that frequently experience congestion and delay. When these systems are not optimized, their inefficiency can lead to countless unhappy customers and hours of wasted time. In this tutorial, you’ll learn how to use Python’s simpy framework to create virtual simulations that will help you solve problems like these.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-success">Read</button>
+                    <button type="button" class="btn btn-primary">Share</button>
+                  </div>
+                  <small>
+                    <button type="button" class="btn btn-secondary btn-sm">Python</button>
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-</div>
-
-  </div>
-</div>
-
-</body>
+  </main>
+      <p class="float-end mb-1">
+        <a href="#">Back to top</a>
+      </p>
+    </body>
 </html>
