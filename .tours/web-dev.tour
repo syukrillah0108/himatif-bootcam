@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "web dev",
+  "steps": [
+    {
+      "file": "Web Dev/index.html",
+      "description": "Ini adalah deklarasi tipe dokumen `HTML` yang digunakan dalam halaman.",
+      "line": 1
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": " Ini adalah elemen akar dari dokumen HTML, dengan atribut lang yang menunjukkan bahasa konten halaman (dalam hal ini, bahasa Inggris).",
+      "line": 2
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "Ini adalah elemen meta yang mengatur pengkodean karakter dokumen sebagai UTF-8, yang merupakan standar umum untuk mengkodekan karakter dalam dokumen web.\n\n😀 😃 😄 العربية  ᮃᮊ᮪ᮞᮛ  ᮞᮥᮔ᮪ᮓ  ᮘᮊᮥ",
+      "line": 4
+    }
+  ],
+  "ref": "main"
+}
