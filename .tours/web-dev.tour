@@ -16,6 +16,191 @@
       "file": "Web Dev/index.html",
       "description": "Ini adalah elemen meta yang mengatur pengkodean karakter dokumen sebagai UTF-8, yang merupakan standar umum untuk mengkodekan karakter dalam dokumen web.\n\n😀 😃 😄 العربية  ",
       "line": 4
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "ni adalah elemen meta yang mengatur tampilan responsif halaman dengan lebar sesuai perangkat dan tingkat pembesaran awal (skala) sebesar 1.",
+      "line": 5
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "Ini adalah elemen meta yang memberikan deskripsi singkat tentang halaman, yang sering digunakan oleh mesin pencari dan layanan lainnya.",
+      "line": 6
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "Ini adalah elemen meta yang mengandung kata kunci terkait halaman.",
+      "line": 7
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "Ini adalah tautan ke file stylesheet eksternal (bootstrap.min.css) yang akan digunakan untuk mengatur tampilan dan gaya halaman.",
+      "line": 8
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "Ini adalah tag skrip yang menautkan file JavaScript eksternal (bootstrap.bundle.min.js) yang diperlukan untuk fungsi interaktif yang menggunakan Bootstrap.",
+      "line": 9
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "Ini adalah elemen gaya internal, yang berisi aturan CSS untuk memformat elemen-elemen pada halaman. Di sini, ada aturan untuk memotong paragraf dengan kelas .truncate-paragraph.",
+      "line": 10
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "Ini adalah elemen judul halaman yang akan ditampilkan di tab peramban atau hasil pencarian.",
+      "line": 21
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": " Ini adalah elemen navigasi dengan kelas `navbar`` yang menggunakan gaya latar belakang gelap (bg-dark) dan dirancang untuk tampilan besar (large) menggunakan 'navbar-expand-lg'. Atribut 'aria-label' digunakan untuk memberikan deskripsi aksesibilitas.",
+      "line": 25
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": " Ini adalah div utama yang mengandung konten bilah navigasi.",
+      "line": 26
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": " Ini adalah tautan teks yang mewakili merek atau judul halaman yang akan mengarahkan ke halaman utama (dalam hal ini, `#` mengindikasikan tautan tidak berfungsi).",
+      "line": 27
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "Ini adalah tombol navigasi yang akan memicu tampilan `offcanvas` ketika diklik. Atribut `data-bs-toggle` dan `data-bs-target` mengatur kapan dan di mana offcanvas akan muncul. Atribut `aria-controls` dan `aria-label` adalah bagian dari aksesibilitas.",
+      "line": 28
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "Ini adalah kontainer offcanvas yang akan muncul ketika tombol navigasi di atas diklik. Berada di sebelah kanan (end) halaman. Atribut `tabindex` dan `id` adalah bagian dari aksesibilitas.",
+      "line": 31
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": " Ini adalah bagian kepala dari offcanvas yang berisi judul.",
+      "line": 32
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "Ini adalah judul offcanvas yang akan ditampilkan di bagian kepala offcanvas.",
+      "line": 33
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "Ini adalah tombol close (tutup) untuk offcanvas.",
+      "line": 34
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": " Ini adalah bagian tubuh dari offcanvas yang berisi konten menu dan formulir pencarian.",
+      "line": 36
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "Ini adalah elemen menu dalam daftar. Dalam hal ini, ada tautan untuk `Tips`.",
+      "line": 38
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "Ini adalah elemen menu dalam bentuk dropdown. Dalam hal ini, ada tautan `More` yang akan menampilkan submenu saat diklik.",
+      "line": 44
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "Ini adalah elemen formulir pencarian yang akan digunakan untuk mencari konten pada halaman.",
+      "line": 54
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": " Ini adalah input pencarian dengan gaya kontrol formulir. Atribut `placeholder` memberikan petunjuk tentang apa yang harus dicari.",
+      "line": 55
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": " Ini adalah tombol pencarian dengan gaya tombol responsif yang berwarna hijau (btn-outline-success).",
+      "line": 56
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "Kode ini menggambarkan bagian navbar yang mencakup merek atau judul halaman, tombol navigasi, menu navigasi, menu dropdown, dan formulir pencarian.",
+      "line": 61
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": " Ini adalah elemen div yang memiliki kelas `album`, `py-5` dan `bg-body-tertiary`. Kelas `album` memberikan tata letak umum untuk menampilkan koleksi konten, `py-5` memberikan padding pada bagian atas dan bawah, dan `bg-body-tertiary` memberikan latar belakang tipe ketiga (tertiary body background).",
+      "line": 63
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "Ini adalah div dengan kelas `container`, yang mengandung konten yang akan diletakkan di dalamnya. Kelas `container` dari Bootstrap digunakan untuk mengatur lebar dan tata letak konten sesuai dengan grid responsif.",
+      "line": 64
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "Ini adalah div dengan kelas `row` yang mengatur baris konten. Kelas `row-cols-1`, `row-cols-sm-2`, dan `row-cols-md-3` mengatur jumlah kolom dalam baris sesuai dengan ukuran layar, di sini masing-masing baris akan menampilkan 1 kolom untuk ukuran layar kecil, 2 kolom untuk ukuran layar sedang, dan 3 kolom untuk ukuran layar besar. Kelas `g-3` memberikan jarak antara kolom.",
+      "line": 65
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": " Ini adalah div dengan kelas `col` yang mengatur setiap kolom dalam baris. Setiap kolom berisi elemen `card` yang menampilkan artikel atau konten berita.",
+      "line": 66
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "Ini adalah elemen `card` dengan kelas `shadow`, memberikan tampilan kartu dengan bayangan.",
+      "line": 67
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "Ini adalah elemen gambar yang menampilkan gambar dari direktori `./img/...`. Setiap artikel memiliki gambar yang relevan.",
+      "line": 68
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": " Ini adalah elemen div yang berisi konten utama dari kartu.",
+      "line": 69
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": " Ini adalah elemen judul utama dari artikel.",
+      "line": 70
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "Ini adalah elemen paragraf yang berisi teks artikel. Kelas `truncate-paragraph` mengaplikasikan gaya CSS untuk membatasi teks menjadi beberapa baris dengan efek memotong jika terlalu panjang.",
+      "line": 71
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "ni adalah elemen div yang menggunakan gaya tata letak fleksibel untuk mengatur konten dalam baris dengan ruang di antara mereka.",
+      "line": 72
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "Ini adalah elemen div yang mengandung tombol-tombol dengan gaya tombol grup.",
+      "line": 73
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "Ini adalah elemen kecil yang mengandung tombol dengan gaya tombol sekunder berukuran kecil (btn-secondary btn-sm).",
+      "line": 77
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "Kode ini menghasilkan tampilan grid responsif yang menampilkan beberapa kartu berita dengan judul, teks, tombol baca lebih lanjut, tombol berbagi, dan tombol kategori `Python`. Setiap kartu memiliki gambar yang relevan dan tampil dalam jumlah kolom yang berbeda tergantung pada ukuran layar.",
+      "line": 176
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "Ini adalah elemen paragraf (paragraph) dengan kelas `float-end` dan `mb-1`. Kelas `float-end` digunakan untuk mengaplikasikan gaya CSS agar elemen ini melayang di sisi kanan halaman. Kelas `mb-1` memberikan margin bawah sebesar 1 satuan (mengatur ruang di bawah elemen).",
+      "line": 178
+    },
+    {
+      "file": "Web Dev/index.html",
+      "description": "Ini adalah elemen tautan (anchor) yang memiliki atribut href dengan nilai `#``. Ini berarti saat tautan ini diklik, halaman akan pindah ke elemen yang memiliki id yang sama dengan `#` (biasanya elemen teratas atau bagian atas halaman). Teks tautan adalah `Back to top`, yang akan ditampilkan sebagai tautan `Kembali ke atas` pada halaman.",
+      "line": 179
     }
   ],
   "ref": "main"
